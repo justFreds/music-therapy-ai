@@ -32,7 +32,7 @@ Analysis of music emotion classification techniques
 - Different emotions produce distinct musical outputs
 - Learned emotion vocabulary: nostalgia, tenderness, calmness, power, etc.
 
-## 📊 Key Results
+## Key Results
 
 | Component | Approach | Result |
 |-----------|----------|--------|
@@ -40,7 +40,7 @@ Analysis of music emotion classification techniques
 | Custom Generation | LSTM/VAE from scratch | ❌ Failed |
 | MusicGen Fine-tuning | Transfer learning | ✅ Success |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
