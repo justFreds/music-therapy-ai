@@ -5,7 +5,7 @@ Comparative analysis of machine learning models for emotion recognition from EEG
 
 ## Dataset
 - **Source:** Kaggle EEG Brainwave - Feeling Emotions
-- **Link:** [Add Kaggle link]
+- **Link:** [https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions]
 
 ## Models Tested
 | Model | Accuracy | Training Time |
