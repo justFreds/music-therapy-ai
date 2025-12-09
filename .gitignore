@@ -205,3 +205,81 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model checkpoints (too large for git)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.ckpt
+*.safetensors
+
+# Datasets (too large)
+datasets/
+data/
+*.csv
+*.npz
+*.npy
+*.wav
+*.mp3
+*.midi
+*.mid
+
+# Generated files
+generated_samples/**/*.wav
+generated_samples/**/*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Training outputs
+checkpoints/*.pt
+!checkpoints/README.md  # Keep README for download links
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Large result files
+results/**/*.png
+results/**/*.jpg
+!results/summary_figures/  # Keep summary figures
