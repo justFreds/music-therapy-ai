@@ -35,20 +35,6 @@ Listen to comparisons in `generated_samples/`:
 
 ## Usage
 
-### Training
-```bash
-python musicgen_emotify/train.py --config config.yaml
-```
-
-### Generation
-```bash
-python musicgen_emotify/generate.py \
-    --checkpoint checkpoints/musicgen_emotify_best.pt \
-    --prompt "A classical song that evokes nostalgia and tenderness" \
-    --duration 10 \
-    --output output.wav
-```
-
 ### Jupyter Notebook
 ```bash
 jupyter notebook musicgen_emotify/musicgen_emotify.ipynb
