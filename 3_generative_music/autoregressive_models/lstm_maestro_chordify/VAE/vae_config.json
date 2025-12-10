@@ -1,0 +1,7 @@
+{
+    "vocab_size": 2878,
+    "sequence_length": 64,
+    "latent_dim": 64,
+    "intermediate_dim": 256,
+    "kl_weight": 0.05
+}
